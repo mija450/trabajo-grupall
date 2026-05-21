@@ -1,0 +1,12 @@
+@import "_colors";
+@import "_general";
+
+/* Estilos componentes */
+@import "/src/components/layout/styles.scss";
+@import "/src/components/home/styles.scss";
+@import "/src/components/product/styles.scss";
+
+/* Configuración tailwind */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
